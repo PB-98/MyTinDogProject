@@ -6,7 +6,7 @@
 
 .title-text{
   font-family: "Montserrat";
-  font-size:3rem;
+  font-size:3.5rem;
   line-height: 1.5;
 
 }
@@ -15,6 +15,7 @@
   padding:3% 15%;
 }
 
+/* Navigation Bar */
 
 .navbar{
   padding: 0 0 4.5rem;
@@ -36,9 +37,17 @@
   font-family: "Montserrat-Light";
 }
 
-
-
-
 body{
   font-family: "Montserrat";
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-Image */
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
 }
