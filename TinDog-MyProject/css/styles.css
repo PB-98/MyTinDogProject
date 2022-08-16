@@ -12,7 +12,7 @@
 }
 
 .container-fluid{
-  padding:3% 15%;
+  padding:3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -51,12 +51,24 @@ body{
 .title-image{
   width:60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.title-image-container{
+  position: relative;
 }
 
 
 /* Feature Section */
 #features{
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  /* here, even if we remove the z-index, it will work the same
+  because the element which comes below is automatically stacked
+  on top of the element which is writeen earlier or which comes first */
 }
 
 .feature-box{
