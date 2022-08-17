@@ -25,8 +25,19 @@ p {
   font-size: 2rem;
 }
 
+/* Containers */
 .container-fluid {
   padding: 3% 15% 7%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -56,16 +67,17 @@ p {
 }
 
 /* Title-section */
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
+/* #title {
+   text-align: left;
+} */
+/*removed the padding part to the hierarchical selectors below
+
 
 /* Combining Selectors- it will be helpful when more than one container-fluid is used and
    container-fluid is used in different sections*/
-#title.container-fluid {
+#title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 .title-image {
@@ -82,7 +94,6 @@ p {
 /* Feature Section */
 #features {
   padding: 7% 15%;
-  background-color: #fff;
   position: relative;
   z-index: 1;
   /* here, even if we remove the z-index, it will work the same
@@ -114,7 +125,6 @@ p {
 #testimonials {
   background-color: #ef8172;
   /* text-align: center; */
-  color: #fff;
 }
 
 .testimonial-text {
@@ -183,10 +193,10 @@ p {
 
 /* cta-Section */
 #cta {
-  background-color: #ff4c68;
+  /* background-color: #ff4c68; */
   /* text-align: center; */
   padding: 5% 15% 3%;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .cta-heading {
